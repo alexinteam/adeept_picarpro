@@ -88,7 +88,7 @@ except:
 
 
 for x in range(1,4):
-	if os.system("sudo pip3 install numpy") == 0:
+	if os.system("sudo pip3 install numpy==1.21.6") == 0:
 		break
 
 for x in range(1,4):
